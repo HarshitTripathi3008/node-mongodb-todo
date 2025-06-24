@@ -1,8 +1,9 @@
 upstream node_backend {
-#    ip_hash;
+    ip_hash;
     server 127.0.0.1:8080;
     server 127.0.0.1:8081;
 }
+
 server {
         listen 80 default_server;
         listen [::]:80 default_server;

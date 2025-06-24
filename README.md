@@ -6,6 +6,7 @@ upstream node_backend {
 server {
         listen 80 default_server;
         listen [::]:80 default_server;
+        
         root /home/harshit/Desktop/node-mongodb-todo/assets;
 
         # Add index.php to the list if you are using PHP

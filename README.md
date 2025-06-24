@@ -10,13 +10,11 @@ server {
         
         root /home/harshit/Desktop/node-mongodb-todo/assets;
 
-        # Add index.php to the list if you are using PHP
-        #index index.html index.htm index.nginx-debian.html;
+        
 
         server_name localhost;
         location / {
-                # First attempt to serve request as file, then
-                # as directory, then fall back to displaying a 
+                
 
                 try_files $uri $uri/ =404;
         }
